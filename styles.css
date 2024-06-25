@@ -3,6 +3,26 @@
     --filler-text-color: #FFFFFF;
 }
 
+.mt-6 {
+    margin-top: 3rem;
+}
+
+.mt-7 {
+    margin-top: 4rem;
+}
+
+.mt-8 {
+    margin-top: 5rem;
+}
+
+.mt-9 {
+    margin-top: 6rem;
+}
+
+.mt-10 {
+    margin-top: 7rem;
+}
+
 body {
     background-image: url('images-2/pic_1.jpg');
     background-size: 100%;
@@ -52,9 +72,34 @@ body {
 .purple-background {
     background-color: #C271FF;
     color: #FFFFFF;
-    margin-top: 20px;
+    margin-top: -135px;
     height: 392px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+button {
+    background-color: var(--primary-button-and-span-color);
+    border: none;
+    color: var(--filler-text-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.video-block p {
+    color: #071629;
+    opacity: 50.16%;
+}
+
+.video-block {
+    color: #071629;
+    margin: 0;
+    padding: 10px; /* Adjust padding as needed */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+@media (min-width: 768px) {
+    .pro-imgs div {
+      flex: 0 0 calc(25% - 20px); /* Adjust the 20px to account for padding/margins */
+    }
 }
