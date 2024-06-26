@@ -24,11 +24,20 @@
 }
 
 body {
-    background-image: url('images-2/pic_1.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: top;
-    color: var(--filler-text-color);
+    background: url('images/pic_1.jpg') center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 1093px;
+    position: relative;
+}
+
+.pic_1 {
+    background: url('images-2/pic_1.jpg') center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 1093px;
+    position: relative;
+    margin: 0;
 }
 
 .nav-link {
@@ -45,7 +54,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 21.5%;
+    margin-bottom: 12.2%;
     gap: 1rem;
 }
 
