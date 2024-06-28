@@ -67,12 +67,17 @@
     margin-top: 7rem;
 }
 
+html, body {
+    height: 100%;
+}
 
 body {
     background: url('images/pic_1.jpg') center center no-repeat;
     background-size: cover;
     width: 100%;
     min-height: 1093px;
+    display: flex;
+    flex-direction: column;
     position: relative;
 }
 
@@ -183,4 +188,34 @@ button {
 
 .phillip {
     color: var(--primary-button-and-span-color);
+}
+
+.pro-images-2 {
+    width: 100%;
+}
+
+.row-alt {
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.feet {
+    background-color: #071629;
+    color: #FFFFFF;
+    padding: 20px;
+    height: 249px !important;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+}
+
+.feet-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.feet-content img {
+    max-height: 50px;
 }
