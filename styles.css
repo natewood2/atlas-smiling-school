@@ -173,6 +173,17 @@ button {
     text-align: center;
 }
 
+@media only screen and (max-width: 1024px) {
+    .gross-color-block {
+        height: 713px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .gross-color-block {
+        height: 1142px;
+    }
+}
 
 .help-pls {
     margin-bottom: 5%;
