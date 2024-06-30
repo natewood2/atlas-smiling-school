@@ -76,6 +76,9 @@ body {
     background-size: cover;
     width: 100%;
     min-height: 1093px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -229,4 +232,40 @@ button {
 }
 .feet-content img {
     max-height: 50px;
+}
+
+.background-pic {
+    min-height: 0;
+    background-image: url('images-2/pic_3.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .custom-navbar {
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.funny-font {
+    font-family: 'Coiny', cursive;
+}
+
+.color-block {
+    height: 138px;
+    background-color: var(--primary-button-and-span-color);
+}
+
+.eleven-videos {
+    color: #071629;
+    opacity: 29%;
+}
+
+.video-color-for-text {
+    color: #071629;
+}
+
+.video-color-for-text p {
+    opacity: 55%;
 }
