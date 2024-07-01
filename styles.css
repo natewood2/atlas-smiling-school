@@ -93,6 +93,15 @@ body {
     margin: 0;
 }
 
+.pic_2{
+    background: url('images-2/pic_2.jpg') center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 1093px;
+    position: relative;
+    margin: 0;
+}
+
 .nav-link {
     color: var(--filler-text-color);
 }
@@ -270,4 +279,17 @@ button {
 
 .video-color-for-text p {
     opacity: 55%;
+}
+
+.color-block-2 {
+    height: 392px;
+    background-color: var(--primary-button-and-span-color);
+}
+
+.faq {
+    color: #071629;
+}
+
+.faq p {
+    opacity: 50.16%;
 }
